@@ -1,0 +1,251 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+hr {
+  border-style: solid;
+  color: white;
+  margin-bottom:6%;
+  margin-top: 1%;
+}
+
+#title {
+  padding-bottom: 7rem;
+  text-align: left;
+}
+
+#title, #title-pricing, #form {
+  background-color: #8FE3CF;
+}
+
+#title-pricing .navbar, #form .navbar {
+  padding-bottom: 1rem;
+}
+
+
+/* Navbar Section */
+
+.navbar {
+  padding-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+}
+
+/* Top section */
+
+.download-button {
+  margin-top: 3%;
+  margin-right: 5%;
+}
+
+.top-header-text, .pricing-title, .all-pricing-text {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 17%;
+  padding-bottom: 40px;
+}
+
+.row {
+  padding-top: 2.5rem;
+}
+
+.img-fluid {
+  transform: rotate(20deg);
+  padding-top: 3%;
+  margin-left: 4%;
+  position: absolute;
+  width: 40%;
+}
+
+/* Features section */
+
+#features {
+  padding: 6% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-icons {
+  font-size: 60px;
+  color: #256D85;
+  padding-bottom: 5%;
+
+}
+
+.feature-icons:hover {
+  color: #8FE3CF;
+}
+
+.features-text {
+  color: #6998AB;
+}
+
+.feature-box {
+  padding: 3%;
+}
+/* Gallery section */
+
+#front-gallery {
+  padding: 2% 15%;
+  background-color: #EAF6F6;
+}
+
+.carousel-inner {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-item {
+  transition: transform 0.1s ease, opacity .5s ease-out;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 6% 15%;
+}
+
+.all-button {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all-pricing-content {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.all-pricing-text {
+  padding-bottom: 5%;
+}
+
+#all-pricing {
+  background-color: #8FE3CF;
+}
+
+#footer {
+  padding: 3% 3%;
+  text-align: left;
+  font-size: 90%;
+}
+
+.copyright {
+  padding-top: 2%;
+  font-size: 80%;
+  text-align: center;
+}
+
+@media (max-width: 990px) {
+  .img-fluid {
+    transform: none;
+    padding-top: 3%;
+    margin-left: 4%;
+    position: static;
+    width: 100%;
+  }
+
+  #title {
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .carousel-inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .carousel-dark .carousel-control-prev-icon,
+  .carousel-dark .carousel-control-next-icon {
+    filter: invert(0) grayscale(100);
+  }
+
+  #features, #pricing, .plans-details {
+    font-size: 150%;
+  }
+
+  .all-pricing-text, .pricing-title {
+    font-size: 2.9rem;
+  }
+
+  .all-button {
+    width: 80%;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+}
+
+#plans, #individual, #contact-form, #schedule-table {
+  background-color: #EAF6F6;
+}
+
+#plans, #contact-form {
+  padding: 6% 15%;
+}
+
+#individual {
+  padding: 0 15%;
+  padding-bottom: 6%;
+}
+
+#contact-form h1 {
+  padding-bottom: 3%;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#contact-form label {
+  font-size: 150%;
+  padding-bottom: 1%;
+}
+
+/* Schedule Page */
+
+#schedule-table .card {
+  padding: 3%;
+  padding-bottom: 5%;
+}
+
+#schedule-table {
+  padding: 3% 10%;
+}
+
+#schedule-table h1 {
+  padding-bottom: 3%;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+#schedule-table td {
+  padding-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #8FE3CF;
+}
